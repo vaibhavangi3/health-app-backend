@@ -7,6 +7,7 @@ com\healthapp\user\repository\UserRepository.class
 com\healthapp\user\service\UserService.class
 com\healthapp\tracking\repository\DailyChecklistRepository.class
 com\healthapp\tracking\dto\DayResponse.class
+com\healthapp\auth\dto\LoginResponse.class
 com\healthapp\tracking\dto\SleepLogResponse.class
 com\healthapp\precomputed\repository\ExerciseRepository.class
 com\healthapp\tracking\controller\HealthController.class
@@ -19,6 +20,7 @@ com\healthapp\tracking\entity\DailyChecklist.class
 com\healthapp\HealthAppApplication.class
 com\healthapp\precomputed\entity\Exercise.class
 com\healthapp\config\WebConfig.class
+com\healthapp\auth\controller\AuthController.class
 com\healthapp\tracking\dto\ChecklistRequest.class
 com\healthapp\precomputed\controller\PrecomputedController.class
 com\healthapp\precomputed\entity\Food.class
@@ -28,3 +30,4 @@ com\healthapp\user\dto\UserResponse.class
 com\healthapp\precomputed\repository\FoodRepository.class
 com\healthapp\common\response\ApiResponse.class
 com\healthapp\tracking\dto\ChecklistResponse.class
+com\healthapp\auth\dto\LoginRequest.class

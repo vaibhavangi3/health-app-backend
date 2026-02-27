@@ -2,8 +2,10 @@ C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\precomput
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\analytics\service\AnalyticsService.java
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\tracking\dto\SleepLogRequest.java
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\user\dto\UserCreateRequest.java
+C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\auth\dto\LoginResponse.java
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\user\entity\User.java
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\precomputed\entity\Food.java
+C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\auth\controller\AuthController.java
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\user\dto\UserResponse.java
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\config\GlobalExceptionHandler.java
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\precomputed\service\PrecomputedService.java
@@ -22,6 +24,7 @@ C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\precomput
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\user\service\UserService.java
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\tracking\dto\DayResponse.java
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\tracking\dto\ChecklistRequest.java
+C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\auth\dto\LoginRequest.java
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\tracking\dto\SleepLogResponse.java
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\user\controller\UserController.java
 C:\Users\vaibh\Projects\health-app-backend\src\main\java\com\healthapp\tracking\controller\HealthController.java
