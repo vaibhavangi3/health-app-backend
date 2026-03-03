@@ -46,6 +46,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
+          <mainClass>com.healthapp.HealthAppApplication</mainClass>
           <jvmArguments>-Duser.timezone=Asia/Kolkata</jvmArguments>
         </configuration>
       </plugin>
