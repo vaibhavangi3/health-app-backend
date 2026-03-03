@@ -3,14 +3,28 @@
 ## Requirements
 - Java 17+
 - Maven
-- Docker (optional, for Postgres)
+- Docker
 
-## Start Postgres (local)
+## Run Fully in Docker (recommended for frontend developers)
 ```powershell
-docker compose up -d
+docker compose up --build -d
 ```
 
-## Run the API
+Backend will be available at `http://localhost:8080`.
+
+Useful commands:
+```powershell
+docker compose logs -f backend
+docker compose down
+```
+
+## Run Locally (optional)
+Start only Postgres in Docker:
+```powershell
+docker compose up -d db
+```
+
+Then run backend with Maven:
 ```powershell
 mvn spring-boot:run
 ```

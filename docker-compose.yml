@@ -1,5 +1,20 @@
-version: "3.8"
 services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: healthapp-backend
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/healthapp?options=-c%20TimeZone=Asia/Kolkata
+      SPRING_DATASOURCE_USERNAME: health
+      SPRING_DATASOURCE_PASSWORD: health
+      SERVER_PORT: 8080
+    depends_on:
+      db:
+        condition: service_healthy
+
   db:
     image: postgres:16
     container_name: healthapp-postgres
@@ -9,6 +24,11 @@ services:
       POSTGRES_DB: healthapp
       POSTGRES_USER: health
       POSTGRES_PASSWORD: health
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U health -d healthapp"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
     volumes:
       - healthapp_data:/var/lib/postgresql/data
 volumes:
